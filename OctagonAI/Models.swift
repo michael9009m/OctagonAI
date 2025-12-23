@@ -1,10 +1,3 @@
-//
-//  Models.swift
-//  OctagonAI
-//
-//  Created by Michael Martinez on 12/21/25.
-//
-
 import Foundation
 import SwiftUI
 
@@ -20,14 +13,21 @@ struct Fight: Identifiable {
     let fighterARecord: String
     let fighterB: String
     let fighterBRecord: String
-    let weightClass: String   // new
+    let weightClass: String
     let section: CardSection
 }
-
-
 
 enum CardSection {
     case earlyPrelims
     case prelims
     case mainCard
+}
+
+// ⭐ NEW — Fighter model for the Fighters page
+struct Fighter: Identifiable {
+    let id: UUID
+    let name: String
+    let record: String
+    let weightClass: String
+    let rank: Int
 }

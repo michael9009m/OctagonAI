@@ -115,3 +115,67 @@ struct MockData {
         )
     ]
 }
+
+
+extension MockData {
+
+    // 📌 Top ranked fighters per weight class (as of Dec 15, 2025)
+    static let topRankedFighters: [Fighter] = [
+
+        // Heavyweight
+        Fighter(id: UUID(), name: "Jon Jones", record: "27-1-0", weightClass: "Heavyweight", rank: 1),
+        Fighter(id: UUID(), name: "Tom Aspinall", record: "14-3-0", weightClass: "Heavyweight", rank: 2),
+        Fighter(id: UUID(), name: "Sergei Pavlovich", record: "18-2-0", weightClass: "Heavyweight", rank: 3),
+        Fighter(id: UUID(), name: "Ciryl Gane", record: "12-2-0", weightClass: "Heavyweight", rank: 4),
+        Fighter(id: UUID(), name: "Curtis Blaydes", record: "17-4-0", weightClass: "Heavyweight", rank: 5),
+
+        // Light Heavyweight
+        Fighter(id: UUID(), name: "Alex Pereira", record: "10-2-0", weightClass: "Light Heavyweight", rank: 1),
+        Fighter(id: UUID(), name: "Magomed Ankalaev", record: "19-1-1", weightClass: "Light Heavyweight", rank: 2),
+        Fighter(id: UUID(), name: "Jiri Prochazka", record: "30-5-1", weightClass: "Light Heavyweight", rank: 3),
+        Fighter(id: UUID(), name: "Jamahal Hill", record: "12-2-0", weightClass: "Light Heavyweight", rank: 4),
+        Fighter(id: UUID(), name: "Jan Blachowicz", record: "29-10-1", weightClass: "Light Heavyweight", rank: 5),
+
+        // Middleweight
+        Fighter(id: UUID(), name: "Dricus Du Plessis", record: "22-2-0", weightClass: "Middleweight", rank: 1),
+        Fighter(id: UUID(), name: "Sean Strickland", record: "28-6-0", weightClass: "Middleweight", rank: 2),
+        Fighter(id: UUID(), name: "Israel Adesanya", record: "24-4-0", weightClass: "Middleweight", rank: 3),
+        Fighter(id: UUID(), name: "Robert Whittaker", record: "26-7-0", weightClass: "Middleweight", rank: 4),
+        Fighter(id: UUID(), name: "Marvin Vettori", record: "19-7-1", weightClass: "Middleweight", rank: 5),
+
+        // Welterweight
+        Fighter(id: UUID(), name: "Leon Edwards", record: "22-4-0", weightClass: "Welterweight", rank: 1),
+        Fighter(id: UUID(), name: "Belal Muhammad", record: "23-3-0", weightClass: "Welterweight", rank: 2),
+        Fighter(id: UUID(), name: "Shavkat Rakhmonov", record: "18-0-0", weightClass: "Welterweight", rank: 3),
+        Fighter(id: UUID(), name: "Kamaru Usman", record: "20-4-0", weightClass: "Welterweight", rank: 4),
+        Fighter(id: UUID(), name: "Colby Covington", record: "17-4-0", weightClass: "Welterweight", rank: 5),
+
+        // Lightweight
+        Fighter(id: UUID(), name: "Islam Makhachev", record: "26-1-0", weightClass: "Lightweight", rank: 1),
+        Fighter(id: UUID(), name: "Arman Tsarukyan", record: "22-3-0", weightClass: "Lightweight", rank: 2),
+        Fighter(id: UUID(), name: "Charles Oliveira", record: "34-10-0", weightClass: "Lightweight", rank: 3),
+        Fighter(id: UUID(), name: "Dustin Poirier", record: "30-9-0", weightClass: "Lightweight", rank: 4),
+        Fighter(id: UUID(), name: "Justin Gaethje", record: "25-5-0", weightClass: "Lightweight", rank: 5),
+
+        // Featherweight
+        Fighter(id: UUID(), name: "Ilia Topuria", record: "16-0-0", weightClass: "Featherweight", rank: 1),
+        Fighter(id: UUID(), name: "Alexander Volkanovski", record: "26-4-0", weightClass: "Featherweight", rank: 2),
+        Fighter(id: UUID(), name: "Max Holloway", record: "25-7-0", weightClass: "Featherweight", rank: 3),
+        Fighter(id: UUID(), name: "Brian Ortega", record: "16-3-0", weightClass: "Featherweight", rank: 4),
+        Fighter(id: UUID(), name: "Yair Rodriguez", record: "19-5-0", weightClass: "Featherweight", rank: 5),
+
+        // Bantamweight
+        Fighter(id: UUID(), name: "Sean O'Malley", record: "18-2-0", weightClass: "Bantamweight", rank: 1),
+        Fighter(id: UUID(), name: "Merab Dvalishvili", record: "18-4-0", weightClass: "Bantamweight", rank: 2),
+        Fighter(id: UUID(), name: "Cory Sandhagen", record: "17-4-0", weightClass: "Bantamweight", rank: 3),
+        Fighter(id: UUID(), name: "Petr Yan", record: "16-6-0", weightClass: "Bantamweight", rank: 4),
+        Fighter(id: UUID(), name: "Aljamain Sterling", record: "23-5-0", weightClass: "Bantamweight", rank: 5),
+
+        // Flyweight
+        Fighter(id: UUID(), name: "Alexandre Pantoja", record: "28-5-0", weightClass: "Flyweight", rank: 1),
+        Fighter(id: UUID(), name: "Brandon Moreno", record: "21-7-2", weightClass: "Flyweight", rank: 2),
+        Fighter(id: UUID(), name: "Brandon Royval", record: "16-7-0", weightClass: "Flyweight", rank: 3),
+        Fighter(id: UUID(), name: "Amir Albazi", record: "17-1-0", weightClass: "Flyweight", rank: 4),
+        Fighter(id: UUID(), name: "Kai Kara-France", record: "24-11-0", weightClass: "Flyweight", rank: 5)
+    ]
+}
