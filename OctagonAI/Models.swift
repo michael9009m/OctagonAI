@@ -23,11 +23,11 @@ enum CardSection {
     case mainCard
 }
 
-// ⭐ NEW — Fighter model for the Fighters page
 struct Fighter: Identifiable {
     let id: UUID
     let name: String
     let record: String
-    let weightClass: String
     let rank: Int
+    let weightClass: String
+    let isChampion: Bool
 }
